@@ -82,7 +82,7 @@ return b[heading]-  a[heading];
             filteredUsers: results.data.results
           });
         });
-      }, []);
+      }, [developerState]);
     
       return (
         <DataAreaContext.Provider
